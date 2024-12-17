@@ -1,0 +1,25 @@
+{
+  "name": "demo-2-npm",
+  "version": "1.0.0",
+  "description": "this is demo project by vivek singh",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "namaste",
+    "react"
+  ],
+  "author": "vivek singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
