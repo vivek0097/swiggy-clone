@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import cardData from "../utils/jsonData";
+import userOnlineStatus from '../utils/userOnlineStatus'
+ import { Link } from "react-router-dom";
+
 
 const Body = () => {
   const restaurants = cardData[0].restaurants; // Initial restaurant data
@@ -9,6 +12,10 @@ const Body = () => {
   const [loading, setLoading] = useState(false);
   const [searchText, setSearchText] = useState("");
   const [filteredData, setFilteredData] = useState([...restaurants]);
+
+
+  const RestaurantCardPromoted =  withPromotedLabel(RestaurantCard);
+
 
   // Filter function
   const filterCards = (event) => {
@@ -38,6 +45,16 @@ const Body = () => {
     setFilteredData(listOfRestaurants)
     setSearchText("")
    }
+
+
+   //--getting online status -------------
+   const onlineStatus = userOnlineStatus();
+   if(onlineStatus === false){
+    return(
+      <h1>It's Seems Like Your are Offline!  Please Check Your Internet Connection</h1>
+    )
+   }
+  
 
   return loading ? (
     <Shimmer />
@@ -73,12 +90,23 @@ const Body = () => {
       <div className="res-container">
         {filteredData.length > 0 ? (
           filteredData.map((resItem, index) => (
-            <RestaurantCard key={index} resData={resItem.info} />
+           <Link 
+           key={resItem.info.id}
+           to={"/restaurants/"+ resItem.info.id}
+           >
+            {resItem.info?.promoted === "true" ? 
+            (<RestaurantCardPromoted key={index} resData={resItem.info} />) :
+             (
+              <RestaurantCard key={index} resData={resItem.info} />
+             ) }
+           </Link>
+          
           ))
         ) : (
           <p>No restaurants found</p>
         )}
       </div>
+    
     </div>
   );
 };

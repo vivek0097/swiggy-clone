@@ -1,178 +1,227 @@
-
-body{
-    margin: 0px;
-    padding: 0px;
-    background: #FFF;
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFF;
 }
 
-/* ---for header----------------------- */
-/* ---for header----------------------- */
+/* ---- App Layout ---- */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 12vh;
+  flex-grow: 1;
+}
+
+/* ---- Header ---- */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    background: rgb(255, 255, 255);
-    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2); 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    z-index: 1000;
-    padding: 0  20px; 
-    height: 12vh; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0 20px;
+  height: 12vh;
 }
 
-/* For logo and navigation container */
 .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .logo {
-    width: 80px;
-    height: 60%; 
-    object-fit: covecontain;
-    padding: 0;
+  width: 80px;
+  height: 60%;
+  object-fit: contain;
+  padding: 0;
 }
 
 .nav-items {
-    display: flex;
-    align-items: center; 
-    padding: 0; 
-    height: 100%; 
-    padding-right: 30px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 30px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-items > ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    align-items: center; 
-    
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
 .nav-items > ul > li {
-    padding: 10px;
-    margin: 0 10px; 
-    font-size: 16px;
-    font-weight: 600;
-    display: flex;
-    align-items: center; 
+  padding: 8px;
+  margin: 0 6px;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
+.login-btn {
+  border: none;
+  outline: none;
+  background: rgb(57, 57, 252);
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+}
 
-/* -------------for  body------------- */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1200;
+}
+
+/* ---- Body ---- */
 .body-container {
-    padding-top: 12vh;
+  padding-top: 12vh;
 }
 
 .search {
-    padding: 10px;
+  padding: 10px;
 }
 
-
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .res-container {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 15px; 
-    justify-content: flex-start; 
-    padding: 10px; 
-    max-width: 1200px; 
-    margin: 0 auto; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .res-card {
-    /* height: 300px; */
-    height: auto;
-    width: 270px;
-    border: 1px solid rgb(236, 236, 236);
-    overflow: hidden;
-    padding: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
-    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    background: #f0f0f0; 
+  height: auto;
+  width: 270px;
+  border: 1px solid #ececec;
+  overflow: hidden;
+  padding: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 20px 0px;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: #f0f0f0;
 }
 
 .res-card:hover {
-    cursor: pointer;
-    transform: scale(1.02);
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .res-img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-    object-fit: fill;
- 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  object-fit: fill;
 }
-
-
 
 .rescard-heading {
-    text-align: center;
+  text-align: center;
 }
 
-
-
-/* ---for  shimmer container and cards */
-
-.shimmer-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.shimmer-cards{
-    height: 300px;
-    width: 250px;
-    background: #f0f0f0;
-    margin: 15px;
-    padding: 10px;
+/* ---- Shimmer ---- */
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-
-.login-btn{
-    border: none;
-    outline: none;
-    background: rgb(57, 57, 252);
-    color: white;
-    padding: 5px 15px 5px 15px;
-    cursor: pointer;
+.shimmer-cards {
+  height: 300px;
+  width: 250px;
+  background: #f0f0f0;
+  margin: 15px;
+  padding: 10px;
 }
 
-.filters{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-/* Media query for responsive design */
-/* Media query for tablets in portrait and landscape */
+/* ---- Responsive ---- */
 @media (max-width: 1024px) {
-    .res-card {
-        width: 45%;
-        height: auto;
-    }
+  .res-card {
+    width: 45%;
+  }
 }
 
-/* Media query for large phones and small tablets in landscape */
 @media (max-width: 768px) {
-    .res-card {
-        width: 48%;
-        height: auto;
-    }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-items {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    max-width: 300px;
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
+    z-index: 1300;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .nav-items.open {
+    transform: translateX(0);
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-items ul li {
+    margin: 10px 0;
+  }
+
+  .login-btn {
+    margin-top: 10px;
+  }
+
+  .res-card {
+    width: 48%;
+  }
 }
 
-/* Media query for mobile phones */
 @media (max-width: 480px) {
-    .res-card {
-        width: 100%;
-        height: auto;
-    }
+  .res-card {
+    width: 100%;
+  }
 }
-

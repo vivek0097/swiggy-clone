@@ -10,6 +10,8 @@ const  cardData = [
                     "locality": "Downtown",
                     "areaName": "Central City",
                     "costForTwo": "₹350 for two",
+                     "promoted":true,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Continental",
                       "Italian",
@@ -42,6 +44,8 @@ const  cardData = [
                     "locality": "Suburban",
                     "areaName": "Green Park",
                     "costForTwo": "₹450 for two",
+                    "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Barbecue",
                       "American"
@@ -73,6 +77,8 @@ const  cardData = [
                     "locality": "Old Town",
                     "areaName": "Heritage Lane",
                     "costForTwo": "₹300 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Biryani",
                       "Indian"
@@ -104,6 +110,8 @@ const  cardData = [
                     "locality": "West End",
                     "areaName": "Metro Heights",
                     "costForTwo": "₹550 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "North Indian",
                       "Tandoor"
@@ -135,6 +143,8 @@ const  cardData = [
                     "locality": "Tech Park",
                     "areaName": "Silver Springs",
                     "costForTwo": "₹400 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "South Indian",
                       "Indian"
@@ -166,6 +176,8 @@ const  cardData = [
                     "locality": "City Center",
                     "areaName": "Mall Road",
                     "costForTwo": "₹500 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Italian",
                       "Fast Food"
@@ -197,6 +209,8 @@ const  cardData = [
                     "locality": "Baker Street",
                     "areaName": "East Side",
                     "costForTwo": "₹200 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Street Food",
                       "Chaat"
@@ -228,6 +242,8 @@ const  cardData = [
                     "locality": "Market Square",
                     "areaName": "City Market",
                     "costForTwo": "₹350 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Chinese",
                       "Thai"
@@ -259,6 +275,8 @@ const  cardData = [
                     "locality": "Station Road",
                     "areaName": "Central Plaza",
                     "costForTwo": "₹300 for two",
+                     "promoted":true,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Indian",
                       "Curries"
@@ -290,6 +308,8 @@ const  cardData = [
                     "locality": "New Market",
                     "areaName": "Westside",
                     "costForTwo": "₹400 for two",
+                     "promoted":false,
+                     "PromotedLabel":"It is  New Restaurant",
                     "cuisines": [
                       "Fast Food",
                       "Burgers"
