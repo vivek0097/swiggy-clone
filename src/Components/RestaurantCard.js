@@ -12,8 +12,8 @@ const RestaurantCard = (props) => {
 
 
     return(
-      <div className="res-card">
-       <img src={cloudinaryImageId} alt="restaurant images" className="res-img" />
+      <div className="res-card m-2 p-2 w-[250px]">
+       <img src={cloudinaryImageId} alt="restaurant images" className="size-48 shrink-0 w-[100%]" />
            
         <h3 className="rescard-heading">{name}</h3>
          <h5 style={{marginTop:'0px', marginBottom:'0px', paddingTop:'3px', paddingBottom:'3px'}}>{cuisines.join(", ")}</h5>

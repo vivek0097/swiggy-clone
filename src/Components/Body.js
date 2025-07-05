@@ -60,34 +60,36 @@ const Body = () => {
     <Shimmer />
   ) : (
     <div className="body-container">
-      <div className="filters">
+      <div className="filters flex justify-between px-2">
         <div className="search">
           <input
             type="text"
-            placeholder="Search..."
+            className="border border-solid border-black"
+            
             value={searchText}
             onChange={filterCards}
           />
-          <button className="btn-search" type="button" onClick={searchFun}>Search</button>
+          <button className="px-3 py-1 bg-green-100 rounded-b-lg" type="button" onClick={searchFun}>Search</button>
         </div>
-        <div>
+        <div className="">
           <button
             type="button"
+            className="px-3 py-1 bg-gray-100 cursor-pointer"
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
                 (res) => res.info.avgRating > 4.4
               );
               setFilteredData(filteredList);
             }}
-            style={{padding:'2px'}}
+           
           >
             Top Rated Restaurants
           </button>
-          <button type="button" style={{padding:'2px'}} onClick={resetList}>Reset</button>
+          <button type="button"   className="px-3 py-1 bg-red-300 cursor-pointer" onClick={resetList}>Reset</button>
         </div>
       </div>
 
-      <div className="res-container">
+      <div className="flex flex-wrap ">
         {filteredData.length > 0 ? (
           filteredData.map((resItem, index) => (
            <Link 

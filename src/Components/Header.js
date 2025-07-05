@@ -14,29 +14,30 @@ const  Header = () => {
 
     return(
         <>
-      <div className="header">
+      <div className="flex justify-between mb-2 shadow-lg bg-pink-100">
         <div className="logo-container">
-          <img  className="logo" src={LOGO_URL}  />
+          <img  className="w-24" src={LOGO_URL}  />
         </div>
-          <div className="hamburger" onClick={toggleMenu}>
+          {/* <div className="hamburger" onClick={toggleMenu}>
           ☰
-        </div>
-        <nav className={`nav-items ${isMenuOpen ? "open" : ""}`}>
-          <ul>
-            <li onClick={closeMenu}>Online Status: {onlineStatus ? "🟢" : "🔴"}</li>
-            <li onClick={closeMenu}><Link to="/">Home</Link></li>
-            <li onClick={closeMenu}><Link to="/about">About Us</Link></li>
-            <li onClick={closeMenu}><Link to="/contact">Contact Us</Link></li>
-            <li onClick={closeMenu}><Link to="/grocery">Grocery</Link></li>
-            <li onClick={closeMenu}>Cart</li>
+        </div> */}
+        {/* <nav className={`nav-items ${isMenuOpen ? "open" : ""} `}> */}
+        <div className="flex items-center ">
+          <ul className="flex p-4 m-4 ">
+            <li onClick={closeMenu} className="px-4">Online Status: {onlineStatus ? "🟢" : "🔴"}</li>
+            <li onClick={closeMenu} className="px-4"><Link to="/">Home</Link></li>
+            <li onClick={closeMenu} className="px-4"><Link to="/about">About Us</Link></li>
+            <li onClick={closeMenu} className="px-4"><Link to="/contact">Contact Us</Link></li>
+            <li onClick={closeMenu} className="px-4"><Link to="/grocery">Grocery</Link></li>
+            <li onClick={closeMenu} className="px-4">Cart</li>
             <button className="login-btn" onClick={() => setBtnNameReact("Logout")}>
               {btnNameReact}
             </button>
           </ul>
-        </nav>
+        </div>
       </div>
          {/* Backdrop */}
-       {isMenuOpen && <div className="backdrop" onClick={closeMenu}></div>}
+       {/* {isMenuOpen && <div className="backdrop" onClick={closeMenu}></div>} */}
       </>
     )
   }
