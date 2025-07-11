@@ -64,7 +64,7 @@ const Body = () => {
         <div className="search">
           <input
             type="text"
-            className="border border-solid border-black"
+            className="border-2 border-gray-700 focus:border-pink-600 px-1"
             
             value={searchText}
             onChange={filterCards}
