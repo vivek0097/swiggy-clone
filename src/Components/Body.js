@@ -7,7 +7,7 @@ import userOnlineStatus from '../utils/userOnlineStatus'
 
 
 const Body = () => {
-  const restaurants = cardData[0].restaurants; // Initial restaurant data
+  const restaurants = cardData[0].restaurants; 
   const [listOfRestaurants, setListOfRestaurants] = useState([...restaurants]);
   const [loading, setLoading] = useState(false);
   const [searchText, setSearchText] = useState("");
@@ -88,15 +88,17 @@ const Body = () => {
           <button type="button"   className="px-3 py-1 bg-red-300 cursor-pointer" onClick={resetList}>Reset</button>
         </div>
       </div>
-
+         
       <div className="flex flex-wrap ">
         {filteredData.length > 0 ? (
           filteredData.map((resItem, index) => (
+           
+          
            <Link 
            key={resItem.info.id}
-           to={"/restaurants/"+ resItem.info.id}
+           to={"/restaurants/" + resItem.info.id}
            >
-            {resItem.info?.promoted === "true" ? 
+            {resItem.info?.promoted === true ? 
             (<RestaurantCardPromoted key={index} resData={resItem.info} />) :
              (
               <RestaurantCard key={index} resData={resItem.info} />

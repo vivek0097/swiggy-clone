@@ -12,8 +12,8 @@ const RestaurantCard = (props) => {
 
 
     return(
-      <div className="res-card m-2 p-2 w-[250px] shadow-xl">
-       <img src={cloudinaryImageId} alt="restaurant images" className="size-48 shrink-0 w-[100%]" />
+      <div className="res-card m-2 p-2 w-[250px] shadow-xl bg-gray-100 hover:bg-gray-200 ">
+       <img src={cloudinaryImageId} alt="restaurant images" className="size-48 shrink-0 w-[100%] " />
            
         <h3 className="rescard-heading">{name}</h3>
          <h5 style={{marginTop:'0px', marginBottom:'0px', paddingTop:'3px', paddingBottom:'3px'}}>{cuisines.join(", ")}</h5>
@@ -23,22 +23,21 @@ const RestaurantCard = (props) => {
     )
   }
 
+  export default RestaurantCard;
+
   //------------Higher order components
   //  input - RestaurantCard => restaurantCardPromoted
 
 export const withPromotedLabel =(RestaurantCard) => {
-  return (props) => {
-
-    <div>
-      <label>Promoted</label>
+  return (props) =>(
+    <div className="relative">
+      <label className="absolute bg-black text-white rounded-lg px-2 py-1 z-10 text-sm">
+        Promoted
+      </label>
       <RestaurantCard {...props} />
     </div>
-  }
+  );
 }
-
-  export default RestaurantCard;
-
-
 
 
 

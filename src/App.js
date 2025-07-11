@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import RestaurantCard from "./Components/RestaurantCard";
+import RestaurantMenu from "./Components/RestaurantMenu";
 
 
 const Grocery = lazy(() => import("./Components/Grocery") );
@@ -48,9 +49,13 @@ const appRouter = createBrowserRouter([
         ),
       },
       {
-        path: "/restaurants/:redId",
-        element: <RestaurantCard />,
+        path: "/restaurants/:resId",
+        element: <RestaurantMenu />,
       },
+      // {
+      //   path: "/restaurants/:resId",
+      //   element: <RestaurantCard />,
+      // },
     ],
   },
 ]);
