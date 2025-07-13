@@ -12,7 +12,7 @@ const  cardData = [
                     "costForTwo": "₹350 for two",
                      "promoted":true,
                      "PromotedLabel":"It is  New Restaurant",
-                     "Card":{"card":
+                     "Card":{"card":[
                       {
                         "title":"Recommended",
                          "itemCards":[
@@ -22,12 +22,12 @@ const  cardData = [
                            "defaultPrice":"₹50"
                          },
                           {
-                           "name":"Chiken Corma",
+                           "name":"Chiken Tandoori",
                            "price":"₹300",
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "Continental",
@@ -63,12 +63,12 @@ const  cardData = [
                     "costForTwo": "₹450 for two",
                     "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
-                        "title":"Recommended",
+                        "title":"Indian Food",
                          "itemCards":[
                           {
-                           "name":"Chiken Handi Biryani",
+                           "name":"Daal Fry",
                            "price":"₹100",
                            "defaultPrice":"₹50"
                          },
@@ -78,7 +78,7 @@ const  cardData = [
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "Barbecue",
@@ -113,7 +113,7 @@ const  cardData = [
                     "costForTwo": "₹300 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
                         "title":"Newly opened",
                          "itemCards":[
@@ -128,7 +128,7 @@ const  cardData = [
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "Biryani",
@@ -163,22 +163,22 @@ const  cardData = [
                     "costForTwo": "₹550 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
-                        "title":"Recommended",
+                        "title":"Lucknow Special",
                          "itemCards":[
                           {
-                           "name":"Chiken Biryani",
+                           "name":"Palak Paneer",
                            "price":"₹100",
                            "defaultPrice":"₹50"
                          },
                           {
-                           "name":"Chiken Corma",
+                           "name":"Chinese Noodle",
                            "price":"₹300",
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "North Indian",
@@ -213,22 +213,22 @@ const  cardData = [
                     "costForTwo": "₹400 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
-                        "title":"Recommended",
+                        "title":"Noida Restaurant",
                          "itemCards":[
                           {
-                           "name":"Chiken Biryani",
+                           "name":"Masala Egg Curry",
                            "price":"₹100",
                            "defaultPrice":"₹50"
                          },
                           {
-                           "name":"Chiken Corma",
+                           "name":"Paneer Masala ",
                            "price":"₹300",
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "South Indian",
@@ -263,22 +263,22 @@ const  cardData = [
                     "costForTwo": "₹500 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
-                        "title":"Recommended",
+                        "title":"Ice Cream and Kulfi",
                          "itemCards":[
                           {
-                           "name":"Chiken Biryani",
+                           "name":"Ice-Cream",
                            "price":"₹100",
                            "defaultPrice":"₹50"
                          },
                           {
-                           "name":"Chiken Corma",
+                           "name":"Khoya Kulfi ",
                            "price":"₹300",
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "Italian",
@@ -313,8 +313,8 @@ const  cardData = [
                     "costForTwo": "₹200 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
-                      {
+                      "Card":{"card":[
+   {
                         "title":"Recommended",
                          "itemCards":[
                           {
@@ -329,6 +329,7 @@ const  cardData = [
                          },
                         ]
                       }
+                      ]
                      },
                     "cuisines": [
                       "Street Food",
@@ -363,7 +364,7 @@ const  cardData = [
                     "costForTwo": "₹350 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
                         "title":"Recommended",
                          "itemCards":[
@@ -379,6 +380,7 @@ const  cardData = [
                          },
                         ]
                       }
+                      ]
                      },
                     "cuisines": [
                       "Chinese",
@@ -413,22 +415,22 @@ const  cardData = [
                     "costForTwo": "₹300 for two",
                      "promoted":true,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
                         "title":"Recommended",
                          "itemCards":[
                           {
-                           "name":"Chiken Biryani",
+                           "name":"Mutton Biryani",
                            "price":"₹100",
                            "defaultPrice":"₹50"
                          },
                           {
-                           "name":"Chiken Corma",
+                           "name":"Mutton Curry",
                            "price":"₹300",
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "Indian",
@@ -463,22 +465,22 @@ const  cardData = [
                     "costForTwo": "₹400 for two",
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
-                      "Card":{"card":
+                      "Card":{"card":[
                       {
                         "title":"Recommended",
                          "itemCards":[
                           {
-                           "name":"Chiken Biryani",
+                           "name":"Veg Biryani",
                            "price":"₹100",
                            "defaultPrice":"₹50"
                          },
                           {
-                           "name":"Chiken Corma",
+                           "name":"Aaloo Paratha",
                            "price":"₹300",
                            "defaultPrice":"₹150"
                          },
                         ]
-                      }
+                      }]
                      },
                     "cuisines": [
                       "Fast Food",
