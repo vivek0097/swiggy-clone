@@ -19,12 +19,14 @@ const  cardData = [
                           {
                            "name":"Chiken Biryani",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                           {
                            "name":"Chiken Tandoori",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -70,12 +72,14 @@ const  cardData = [
                           {
                            "name":"Daal Fry",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                           {
                            "name":"Chiken Curry",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -120,12 +124,14 @@ const  cardData = [
                           {
                            "name":"Veg Biryani",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                           {
                            "name":"Paneer Corma",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -170,12 +176,26 @@ const  cardData = [
                           {
                            "name":"Palak Paneer",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://static.toiimg.com/thumb/53093667.cms?imgsize=325892&width=800&height=800",
                          },
                           {
                            "name":"Chinese Noodle",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://i.ytimg.com/vi/xWZeQBLV6q4/maxresdefault.jpg",
+                         },
+                         {
+                           "name":"Masala Egg Curry",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.shutterstock.com/image-photo/south-indian-style-egg-curry-260nw-1548758183.jpg",
+                         },
+                          {
+                           "name":"Paneer Masala ",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -220,12 +240,14 @@ const  cardData = [
                           {
                            "name":"Masala Egg Curry",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.shutterstock.com/image-photo/south-indian-style-egg-curry-260nw-1548758183.jpg",
                          },
                           {
                            "name":"Paneer Masala ",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -270,12 +292,26 @@ const  cardData = [
                           {
                            "name":"Ice-Cream",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://cdn.britannica.com/50/80550-050-5D392AC7/Scoops-kinds-ice-cream.jpg",
                          },
                           {
                            "name":"Khoya Kulfi ",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrJedHYJZY2xIJRtvZ2SqjzwWAUV74hpXeZw&s",
+                         },
+                         {
+                           "name":"Masala Egg Curry",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.shutterstock.com/image-photo/south-indian-style-egg-curry-260nw-1548758183.jpg",
+                         },
+                          {
+                           "name":"Paneer Masala ",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -320,12 +356,14 @@ const  cardData = [
                           {
                            "name":"Chiken Biryani",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
                          },
                           {
                            "name":"Chiken Corma",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
                          },
                         ]
                       }
@@ -371,12 +409,14 @@ const  cardData = [
                           {
                            "name":"Chiken Biryani",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                           {
                            "name":"Chiken Corma",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }
@@ -422,12 +462,38 @@ const  cardData = [
                           {
                            "name":"Mutton Biryani",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://static.toiimg.com/thumb/63201465.cms?width=1200&height=900",
                          },
                           {
                            "name":"Mutton Curry",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                          "imgUrl":"https://static.toiimg.com/thumb/63201465.cms?width=1200&height=900",
+                         },
+                         {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Veg Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
+                         },
+                          {
+                           "name":"Aaloo Paratha",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
                       }]
@@ -472,12 +538,20 @@ const  cardData = [
                           {
                            "name":"Veg Biryani",
                            "price":"₹100",
-                           "defaultPrice":"₹50"
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                           {
                            "name":"Aaloo Paratha",
                            "price":"₹300",
-                           "defaultPrice":"₹150"
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
+                         },
+                             {
+                           "name":"Mutton Curry",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                          "imgUrl":"https://static.toiimg.com/thumb/63201465.cms?width=1200&height=900",
                          },
                         ]
                       }]

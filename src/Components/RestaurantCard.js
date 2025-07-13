@@ -12,7 +12,7 @@ const RestaurantCard = (props) => {
 
 
     return(
-      <div className="res-card m-2 p-2 w-[250px] shadow-xl bg-gray-100 hover:bg-gray-200 ">
+      <div className="res-card m-2 p-2 w-[250px]  shadow-xl bg-gray-100 hover:bg-gray-200 ">
        <img src={cloudinaryImageId} alt="restaurant images" className="size-48 shrink-0 w-[100%] " />
            
         <h3 className="rescard-heading">{name}</h3>

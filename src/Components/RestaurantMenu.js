@@ -18,34 +18,12 @@ const RestaurantMenu =() => {
 
 
   const menuData = restaurant.info?.Card?.card;
-  const title = menuData?.title || "Menu";
-  // const items = menuData?.itemCards || [];
+  const title = menuData[0].title || "Menu";
+  
 
   return(
-  <div className="text-center p-4">
+  <div className="text-center p-4 overflow-hidden">
       <h1 className="text-2xl font-bold mb-4">{title}</h1>
-       {/* <p className="font-bold text-md">{restaurant.info?.cuisines.join(", ")}</p> */}
-    
-      {/* -----categories Accodian----------------- */}
-      {/* {items.length > 0 ? (
-        <ul className="space-y-2">
-          {items.map((item, index) => (
-            <li key={index} className="bg-gray-100 p-3 rounded shadow">
-              <h3 className="font-semibold text-lg">{item.name}</h3>
-              <p>
-                Price:{" "}
-                <span className="text-green-700 font-medium">
-                  {item.price || item.defaultPrice}
-                </span>
-              </p>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No menu items found.</p>
-      )} */}
-
-    
       {menuData.map((category , index) => (
          <RestaurantCategory key={index} data={category}  />
        ))}
