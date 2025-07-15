@@ -1,13 +1,12 @@
 import  {useState} from 'react'
 import ItemList from './ItemList'
 
-const RestaurantCategory = ({data}) => {
-  const [showItems, setShowItems] = useState(false);
+const RestaurantCategory = ({data, showItems, setShowIndex}) => {
+ 
+const handleClick =() => {
+  setShowIndex();
+}
 
-    // console.log(data, "data ")
-  const handleClick = () => {
-     setShowItems(!showItems);
-  }
 
   return (
     <div className='flex justify-center '>

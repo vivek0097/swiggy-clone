@@ -29,7 +29,25 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                       {
+                        "title":" Veg Only ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                    ]
                      },
                     "cuisines": [
                       "Continental",
@@ -82,7 +100,25 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                       {
+                        "title":" Banglore Special ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                    ]
                      },
                     "cuisines": [
                       "Barbecue",
@@ -134,7 +170,26 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                      ,
+                       {
+                        "title":" Kanpur Famous ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                    ]
                      },
                     "cuisines": [
                       "Biryani",
@@ -198,7 +253,26 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                       {
+                        "title":" Veg Only ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                    
+                    ]
                      },
                     "cuisines": [
                       "North Indian",
@@ -250,7 +324,26 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                      
+                       {
+                        "title":" Hydrabadi Biryani ",
+                         "itemCards":[
+                          {
+                           "name":"Hydrabadi Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Hydrabadi Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                    ]
                      },
                     "cuisines": [
                       "South Indian",
@@ -314,7 +407,25 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                      {
+                        "title":" Hydrabadi Biryani ",
+                         "itemCards":[
+                          {
+                           "name":"Hydrabadi Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Hydrabadi Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                  ]
                      },
                     "cuisines": [
                       "Italian",
@@ -350,7 +461,7 @@ const  cardData = [
                      "promoted":false,
                      "PromotedLabel":"It is  New Restaurant",
                       "Card":{"card":[
-   {
+                         {
                         "title":"Recommended",
                          "itemCards":[
                           {
@@ -366,7 +477,24 @@ const  cardData = [
                            "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
                          },
                         ]
-                      }
+                        },
+                         {
+                        "title":" Veg Only ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
                       ]
                      },
                     "cuisines": [
@@ -390,7 +518,8 @@ const  cardData = [
                     },
                     "isOpen": true,
                     "type": "F"
-                  }
+                  },
+                  
                 },
                 {
                   "info": {
@@ -419,7 +548,24 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }
+                      },
+                       {
+                        "title":" Italian ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
                       ]
                      },
                     "cuisines": [
@@ -496,7 +642,25 @@ const  cardData = [
                            "imgUrl":"https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg",
                          },
                         ]
-                      }]
+                      },
+                       {
+                        "title":" Veg Only ",
+                         "itemCards":[
+                          {
+                           "name":"Chiken Biryani",
+                           "price":"₹100",
+                           "defaultPrice":"₹50",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                          {
+                           "name":"Chiken Corma",
+                           "price":"₹300",
+                           "defaultPrice":"₹150",
+                           "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s",
+                         },
+                        ]
+                        },
+                    ]
                      },
                     "cuisines": [
                       "Indian",
