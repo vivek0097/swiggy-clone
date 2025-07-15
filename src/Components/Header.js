@@ -1,17 +1,19 @@
-import React, {useState} from "react";
+import React, {useState, useContext} from "react";
 import { LOGO_URL } from "../utils/constant";
 import userOnlineStatus from "../utils/userOnlineStatus";
 import { Link } from "react-router-dom";
+import UserContext from "../utils/UserContext";
 
 const  Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login")
    const [isMenuOpen, setIsMenuOpen] = useState(false);
   const onlineStatus = userOnlineStatus();
+  const data = useContext(UserContext);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
-
+console.warn(data?.loggedInUser, "data")
     return(
         <>
       <div className="flex justify-between mb-2 shadow-lg bg-pink-100">
@@ -33,6 +35,7 @@ const  Header = () => {
             <button className="login-btn" onClick={() => setBtnNameReact("Logout")}>
               {btnNameReact}
             </button>
+            <li className="ps-4 font-bold">{data?.loggedInUser}</li>
           </ul>
         </div>
       </div>

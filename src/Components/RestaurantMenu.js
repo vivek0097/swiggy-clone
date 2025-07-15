@@ -8,9 +8,7 @@ const RestaurantMenu =() => {
  
     const {resId} = useParams();
  const restaurants = cardData[0].restaurants; 
-
 const [showIndex, setShowIndex] = useState(0)
-
 
 
   // Find the matching restaurant by ID
@@ -35,6 +33,7 @@ const [showIndex, setShowIndex] = useState(0)
          data={category}  
          showItems={index === showIndex ? true : false}
          setShowIndex={() =>setShowIndex(index)}
+        
          />
        ))}
       
