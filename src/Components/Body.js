@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import cardData from "../utils/jsonData";
 import userOnlineStatus from '../utils/userOnlineStatus'
  import { Link } from "react-router-dom";
-
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   const restaurants = cardData[0].restaurants; 
@@ -12,7 +12,8 @@ const Body = () => {
   const [loading, setLoading] = useState(false);
   const [searchText, setSearchText] = useState("");
   const [filteredData, setFilteredData] = useState([...restaurants]);
-
+   
+  // const { setUserName} = useContext(UserContext);
 
   const RestaurantCardPromoted =  withPromotedLabel(RestaurantCard);
 
@@ -56,7 +57,7 @@ const Body = () => {
    }
   
 
-  return loading ? (
+  return listOfRestaurants.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body-container">
@@ -87,6 +88,7 @@ const Body = () => {
           </button>
           <button type="button"   className="px-3 py-1 bg-red-300 cursor-pointer" onClick={resetList}>Reset</button>
         </div>
+   
       </div>
          
       <div className="flex flex-wrap ">
