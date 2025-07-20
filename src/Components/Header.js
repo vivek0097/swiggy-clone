@@ -3,6 +3,8 @@ import { LOGO_URL } from "../utils/constant";
 import userOnlineStatus from "../utils/userOnlineStatus";
 import { Link } from "react-router-dom";
 import UserContext from "../utils/UserContext";
+import { HiShoppingCart } from "react-icons/hi";
+import { useSelector } from "react-redux";
 
 const  Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login")
@@ -13,7 +15,12 @@ const  Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
-console.warn(data?.loggedInUser, "data")
+ //---selector---------
+ const cartItems = useSelector((store) => store.cart.items);
+
+ console.log(cartItems, 'cartItems')
+
+// console.warn(data?.loggedInUser, "data")
     return(
         <>
       <div className="flex justify-between mb-2 shadow-lg bg-pink-100">
@@ -31,7 +38,13 @@ console.warn(data?.loggedInUser, "data")
             <li onClick={closeMenu} className="px-4"><Link to="/about">About Us</Link></li>
             <li onClick={closeMenu} className="px-4"><Link to="/contact">Contact Us</Link></li>
             <li onClick={closeMenu} className="px-4"><Link to="/grocery">Grocery</Link></li>
-            <li onClick={closeMenu} className="px-4">Cart</li>
+
+            <li onClick={closeMenu} className="px-3 relative">
+           <Link to='/cart'> <HiShoppingCart size={28} color="black" /></Link>
+            <span className="absolute -top-2 -right-0 bg-red-600 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
+              {cartItems.length}
+            </span>
+          </li>
             <button className="login-btn" onClick={() => setBtnNameReact("Logout")}>
               {btnNameReact}
             </button>
