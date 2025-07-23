@@ -14,8 +14,12 @@
   "author": "vivek singh",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@tailwindcss/postcss": "^4.1.11",
     "autoprefixer": "^10.4.21",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
     "parcel": "^2.12.0",
     "postcss": "^8.5.6",
     "process": "^0.11.10",
