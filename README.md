@@ -26,3 +26,5 @@ A Swiggy-inspired food ordering web application built using React.js and Tailwin
 -npm i @babel/preset-react    - to make  jsx work in test cases
 -include @babel/preset-react inside my babel config
 -installing testing library/ jest-dom
+
+-npm install --save-dev jest-environment-jsdom
