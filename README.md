@@ -23,4 +23,6 @@ A Swiggy-inspired food ordering web application built using React.js and Tailwin
 -installed babel dependency
 -configure babel
 -configure parcel config file to disable default babel transpilation
-
+-npm i @babel/preset-react    - to make  jsx work in test cases
+-include @babel/preset-react inside my babel config
+-installing testing library/ jest-dom
