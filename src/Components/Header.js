@@ -6,6 +6,8 @@ import UserContext from "../utils/UserContext";
 import { HiShoppingCart } from "react-icons/hi";
 import { useSelector } from "react-redux";
 
+
+
 const  Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login")
    const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +20,7 @@ const  Header = () => {
  //---selector---------
  const cartItems = useSelector((store) => store.cart.items);
 
- console.log(cartItems, 'cartItems')
+//  console.log(cartItems, 'cartItems')
 
 // console.warn(data?.loggedInUser, "data")
     return(
