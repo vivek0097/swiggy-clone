@@ -1,0 +1,70 @@
+{
+  "id": "150001",
+  "name": "Urban Feast",
+  "cloudinaryImageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8c-i2pulDaSi4awZlJmIuRBNcw6O9269ycQ&s",
+  "locality": "Downtown",
+  "areaName": "Central City",
+  "costForTwo": "₹350 for two",
+  "promoted": true,
+  "PromotedLabel": "It is New Restaurant",
+  "Card": {
+    "card": [
+      {
+        "title": "Recommended",
+        "itemCards": [
+          {
+            "name": "Chiken Biryani",
+            "price": "₹100",
+            "defaultPrice": "₹50",
+            "imgUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg"
+          },
+          {
+            "name": "Chiken Tandoori",
+            "price": "₹300",
+            "defaultPrice": "₹150",
+            "imgUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/02/paneer-curry-recipe.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Veg Only",
+        "itemCards": [
+          {
+            "name": "Chiken Biryani",
+            "price": "₹100",
+            "defaultPrice": "₹50",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s"
+          },
+          {
+            "name": "Chiken Corma",
+            "price": "₹300",
+            "defaultPrice": "₹150",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIpmd8TQd3iaAIho6YWi_FwWP7ZBbfGeLz3w&s"
+          }
+        ]
+      }
+    ]
+  },
+  "cuisines": [
+    "Continental",
+    "Italian",
+    "Chinese"
+  ],
+  "avgRating": 4.5,
+  "parentId": "20001",
+  "avgRatingString": "4.5",
+  "totalRatingsString": "1200",
+  "sla": {
+    "deliveryTime": 45,
+    "lastMileTravel": 5.2,
+    "serviceability": "SERVICEABLE",
+    "slaString": "40-50 mins",
+    "lastMileTravelString": "5.2 km"
+  },
+  "availability": {
+    "nextCloseTime": "2024-10-09 23:45:00",
+    "opened": true
+  },
+  "isOpen": true,
+  "type": "F"
+}

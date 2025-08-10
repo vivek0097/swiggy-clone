@@ -20,10 +20,10 @@ it("Should render Header Component with a login button", () => {
   expect(loginButton).toBeInTheDocument();
 });
 
-it("Should render Header Component with a Cart item", () => {
+it("Should render Header Component with a Cart Link", () => {
   renderHeader();
-  const cartItems = screen.getByText(/Cart/);
-  expect(cartItems).toBeInTheDocument();
+const cartIcon = screen.getByRole("link", { name: "" }); 
+expect(cartIcon).toBeInTheDocument();
 });
 
 it("Should change Login button to Logout on click", () => {
